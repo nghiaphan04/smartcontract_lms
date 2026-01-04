@@ -9,6 +9,15 @@ app.use(express.json())
 app.get('/', (req, res) => {
     res.json({ message: 'Hello from Express on Vercel!' })
 })
+
+app.get('/health', (req, res) => {
+    res.status(200).json({
+        status: 'ok',
+        timestamp: new Date().toISOString(),
+        uptime: process.uptime(),
+        service: 'contract-service'
+    })
+})
 router(app)
 
 const PORT = Number(process.env.PORT || 3001)

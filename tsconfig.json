@@ -20,7 +20,7 @@
         }
     },
 
-    "include": ["**/*.ts", "**/*.tsx", "src/types/**/*.ts", "*.config.mjs", "*.config.js"],
+    "include": ["src/**/*.ts", "src/**/*.tsx", "*.config.mjs", "*.config.js"],
 
     "exclude": ["node_modules"],
     "ts-node": {

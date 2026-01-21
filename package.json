@@ -5,7 +5,8 @@
     "main": "src/index.ts",
     "scripts": {
         "dev": "npx nodemon",
-        "start": "node dist/api/index.js",
+        "build": "tsc && tsc-alias",
+        "start": "node dist/index.js",
         "test": "jest --runInBand",
         "lint": "eslint .",
         "lint:fix": "eslint . --fix",

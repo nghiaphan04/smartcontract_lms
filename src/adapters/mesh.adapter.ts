@@ -14,10 +14,10 @@ import {
     UTxO
 } from '@meshsdk/core'
 import cbor from 'cbor'
-import { APP_NETWORK_ID, BLOCKFROST_API_KEY } from '~/constants/enviroments.constant'
-import { Plutus } from '../types'
-import plutus from '../../contracts/plutus.json'
-import { title } from '../constants/common.constant'
+import { APP_NETWORK_ID, BLOCKFROST_API_KEY } from '~/constants/enviroments.constant.js'
+import { Plutus } from '../types/index.js'
+import plutus from '../../contracts/plutus.json' with { type: 'json' }
+import { title } from '../constants/common.constant.js'
 
 /**
  * @class MeshAdapter

@@ -8,8 +8,8 @@ import {
     stringToHex,
     UTxO
 } from '@meshsdk/core'
-import { MeshAdapter } from '../adapters/mesh.adapter'
-import { APP_NETWORK } from '../constants/enviroments.constant'
+import { MeshAdapter } from '../adapters/mesh.adapter.js'
+import { APP_NETWORK } from '../constants/enviroments.constant.js'
 export class MeshTxBuilder extends MeshAdapter {
     /**
      * Mint new or existing CIP-68 tokens.

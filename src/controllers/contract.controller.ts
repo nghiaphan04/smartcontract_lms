@@ -1,7 +1,7 @@
 import { Request, Response } from 'express'
 import { BlockfrostProvider, MeshWallet, policyId } from '@meshsdk/core'
-import { APP_MNEMONIC, APP_NETWORK_ID, BLOCKFROST_API_KEY } from '../constants/enviroments.constant'
-import { MeshTxBuilder } from '../txbuilders/mesh.txbuilder'
+import { APP_MNEMONIC, APP_NETWORK_ID, BLOCKFROST_API_KEY } from '../constants/enviroments.constant.js'
+import { MeshTxBuilder } from '../txbuilders/mesh.txbuilder.js'
 
 /**
  * @function mint

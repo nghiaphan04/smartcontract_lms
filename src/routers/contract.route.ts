@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { mint, batchMint, update, burn, contract } from '../controllers/contract.controller'
+import { mint, batchMint, update, burn, contract } from '../controllers/contract.controller.js'
 
 const router: Router = Router()
 

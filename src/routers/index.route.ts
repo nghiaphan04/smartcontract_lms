@@ -1,6 +1,6 @@
 import { Express } from 'express'
 
-import contract from './contract.route'
+import contract from './contract.route.js'
 
 /**
  * @function router
